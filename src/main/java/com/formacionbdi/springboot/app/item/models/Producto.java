@@ -9,6 +9,17 @@ public class Producto {
 	private BigDecimal precio;
 	private Date fechaCreacion;
 	private Integer port;
+	
+	public Producto() {}
+	
+	public Producto(Long id, String nombre, BigDecimal precio, Date fechaCreacion, Integer port) {
+		this.id = id;
+		this.nombre = nombre;
+		this.precio = precio;
+		this.fechaCreacion = fechaCreacion;
+		this.port = port;
+	}
+	
 	public Long getId() {
 		return id;
 	}
