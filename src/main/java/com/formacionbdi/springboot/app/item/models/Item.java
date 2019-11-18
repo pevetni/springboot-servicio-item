@@ -2,6 +2,8 @@ package com.formacionbdi.springboot.app.item.models;
 
 import java.math.BigDecimal;
 
+import com.formacionbdi.springboot.app.commons.models.entity.Producto;
+
 public class Item {
 
 	private Producto producto;
